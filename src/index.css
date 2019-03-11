@@ -8,3 +8,65 @@ code {
   font-family: 'Anton', sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body {
+  font-family: "Anton 100px", serif;
+}
+
+code {
+  font-family: 'Anton', sans-serif;
+}
+
+.h1{
+  font-size: 70px;
+  color:black;
+  font-family: 'Anton', sans-serif;
+}
+
+.info{
+  background-image: url(media/memeup.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  }
+
+
+.top{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Anton', sans-serif;
+  width: 100%;
+  height: 200vh;
+  font-size: 30px;
+  text-shadow: 2px 0 0 #000, -2px 0 0  #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000,
+}
+
+.bottom{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Anton', sans-serif;
+  width: 100%;
+  height: 120vh;
+  font-size: 30px;
+  text-shadow: 2px 0 0 #000, -2px 0 0  #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000,
+}
+
+.lbl{
+  color: white;
+  text-shadow: 2px 0 0 #000, -2px 0 0  #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000,
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  width: 100%
+}
