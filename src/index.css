@@ -8,16 +8,6 @@ code {
   font-family: 'Anton', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Anton');
-
-body {
-  font-family: "Anton 100px", serif;
-}
-
-code {
-  font-family: 'Anton', sans-serif;
-}
-
 .h1{
   font-size: 70px;
   color:black;
@@ -63,6 +53,11 @@ code {
 .lbl{
   color: white;
   text-shadow: 2px 0 0 #000, -2px 0 0  #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000,
+}
+
+.btnres{
+  width: 20%;
+  height: 20px;
 }
 
 .row{

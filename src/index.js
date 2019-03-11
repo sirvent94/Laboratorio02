@@ -50,6 +50,7 @@ class DogMeme extends React.Component{
               <input type="text" name="topname" onChange={this.handleChange}/>
               <input type="text" name="bottomname" onChange={this.handleChange2}/>
           </form>
+          <button className="btnres" onClick={this.resset}>RESET</button>
         </figure>
         </div>
         <p className="top">{this.state.topval}</p>
