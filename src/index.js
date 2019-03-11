@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import DogMeme from './App';
 import * as serviceWorker from './serviceWorker';
 
 //ReactDOM.render(<DogMeme />, document.getElementById('root'));
@@ -14,28 +13,12 @@ serviceWorker.unregister();
 class DogMeme extends React.Component{
 
 	constructor(props){
-		super(props);
-		this.state={topval:'Yei', botval: 'WOW'};
 
 	}
 
 	render(){
 		return(
 			
-				
-
-			<div className="info">
-				<div className="row">
-
-				<figure>
-					<form>
-						<h1 className="h1">Create</h1>
-						<h1 className="h1">Meme</h1>
-
-					</form>
-				</figure>
-				</div>
-			</div>
 			);
 	}
 }
